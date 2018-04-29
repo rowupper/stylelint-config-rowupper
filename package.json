@@ -1,0 +1,20 @@
+{
+  "name": "stylelint-config-rowupper",
+  "version": "0.0.1",
+  "description": "Sharable stylelint config used by Rowupper.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --quiet *.js",
+    "test": "npm run lint"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "~4.19.1",
+    "eslint-config-rowupper": "~0.0.1"
+  },
+  "dependencies": {
+    "stylelint-config-sass-guidelines": "~5.0.0",
+    "stylelint-order": "~0.8.1",
+    "stylelint-scss": "~2.5.0"
+  }
+}
